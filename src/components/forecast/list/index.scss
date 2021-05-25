@@ -1,0 +1,37 @@
+.forecast-list {
+	background-color: #eee;
+	padding: 10px;
+	box-sizing: border-box;
+	min-height: 100vh;
+	.location-name {
+		padding: 20px;
+		text-align: center;
+		span {
+			color: #222;
+			font-size: 36px;
+		}
+	}
+
+	.reload {
+		margin-bottom: 20px;
+		text-align: center;
+
+		button {
+			background: transparent;
+			color: #00f;
+			border:1px solid #00f;
+			border-radius:5px;
+			cursor: pointer;
+			font-size: 12px;
+			padding: 4px 8px;
+			&[disabled] {
+				opacity: 0.5;
+			}
+		}
+	}
+
+	.forecast-day {
+		margin: 0 auto;
+		max-width: 600px;
+	}
+}

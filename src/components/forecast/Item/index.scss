@@ -1,0 +1,60 @@
+.forecast-item {
+	background-color: #fefefe;
+	border:1px solid #666;
+	box-sizing: border-box;
+	display: flex;
+	height: 80px;
+	margin-bottom: 5px;
+	padding: 5px;
+	width: 100%;
+	border-radius:10px;
+	div {
+		align-items: center;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: center;
+		padding: 12px;
+		flex-grow: 1;
+
+		span {
+			color: #222;
+		}
+	}
+
+	.date {
+		text-align: center;
+		font-style: italic;
+		span {
+			font-size: 14px;
+		}
+	}
+
+	.weather {
+		flex-direction: column;
+		height: 100%;
+		text-align: center;
+		margin-top: 10px;
+
+		.owf {
+			color: #222;
+			font-size: 40px;
+		}
+
+		span {
+			font-size: 12px;
+		}
+	}
+
+	.temperature {
+		span {
+			font-size: 24px;
+		}
+	}
+
+	.humidity {
+		span {
+			text-align: center;
+			font-size: 12px;
+		}
+	}
+}
